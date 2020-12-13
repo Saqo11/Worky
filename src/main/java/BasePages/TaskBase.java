@@ -13,7 +13,7 @@ public class TaskBase extends  BasePage{
         super(driver);
     }
      public TaskBase goTO () {
-         driver.get(SITE_URL);
+
          return this;
 
      }
